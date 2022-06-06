@@ -1,0 +1,76 @@
+wel='\t\t\t**********welcome in menu baed program**********'
+x='choose following opention for performing defferent defferen operation'
+
+#there are operation which we can perform in this program
+
+op1='Press 1 for fill a job form           '
+op2='Press 2 for install docker in base operating system               '
+op3='Press 3 for starting web server              '
+op4='Press 4 for creating own custom images'
+op5='Press q for quit  '             
+
+
+import os
+i=0;
+os.system("clear")
+while True:
+	
+	print(wel)
+	
+	print(op1)
+	print(op2)
+	print(op3)
+	print(op4)
+	print(op5)
+	if i==0:  
+		#this code execute only first time		
+		os.system(" espeak-ng 'welcome in menu based program'")	
+		os.system("espeak-ng -s 100 -a 50 '\n\n\nchoose following opention \n\n Press 1 for fill a job form \n\n Press 2 for install docker in base operating system   \n\n Press 3 for starting web server \n\n Press 4 for creating own custom images'")
+		
+		i=i+1
+	ch=input("Enter your choise : ") #take inpute from user
+	os
+		os.system('zenity --warning --text="you should a Indian" --title="what citizenship"')
+
+		os.system('zenity --question --text="are you single ???" --title="relation ship"')
+
+		os.system('zenity --info --title="form submitted" --text="thanks for submiting job form"')
+	elif ch=='2':
+		#code of second operation 
+		print("code for installing docker")
+	elif ch=='3':
+		print("code for starting web server")
+	elif ch=='4':
+		print("code for costum images")
+	elif ch=='q':
+		break
+	else:
+		print("you are enter invailid key ")
+	os.system("clear")
+	if ch=='1':
+		#code of first operation 
+		#print("code for fill job form")
+		os.system('zenity --forms --add-entry="first name"  --add-entry="last name" --add-entry="address"  --title="job form"')
+
+		os.system('zenity --list --checklist --column="select" --column="passout" 1 "10th" 2 "12th" 3 "graduation" 4 "other" --title="checking eligibility" --text="plz select one or more"')
+
+		os.system('zenity --warning --text="you should a Indian" --title="what citizenship"')
+
+		os.system('zenity --question --text="are you single ???" --title="relation ship"')
+
+		os.system('zenity --info --title="form submitted" --text="thanks for submiting job form"')
+	elif ch=='2':
+		#code of second operation 
+		print("code for installing docker")
+	elif ch=='3':
+		print("code for starting web server")
+	elif ch=='4':
+		print("code for costum images")
+	elif ch=='q':
+		break
+	else:
+		print("you are enter invailid key ")
+	
+
+
+		
